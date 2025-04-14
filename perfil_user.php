@@ -101,7 +101,12 @@
                             <tbody>
                                 <tr>
                                     <td>Carro</td>
-                                    <td>Uno</td>
+                                    <td>
+                                        <span>
+                                            <button class="btn btn-success p-0" data-bs-toggle="modal" data-bs-target="#uno">Fiat Uno</button>
+                                        </span>
+                                    </td>
+                                       
                                     <td>ABC1D34</td>
                                     <td>
                                         <span class="badge bg-success">
@@ -113,7 +118,11 @@
                             <tbody>
                                 <tr>
                                     <td>Moto</td>
-                                    <td>Ninja</td>
+                                    <td>
+                                        <span>
+                                            <button class="btn btn-success p-0" data-bs-toggle="modal" data-bs-target="#modalcorsaclassic">Ninja</button>
+                                        </span>
+                                    </td>
                                     <td>AAA1B23</td>
                                     <td>
                                         <span class="badge bg-warning">
@@ -152,8 +161,99 @@
             </div>
         </div>
      </div>
-
 </div>
+<!-- Modal -->
+<div class="modal fade" id="uno" tabindex="-1" aria-labelledby="unoLabel" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="uno">Detalhes de Fiat Uno</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><strong>Marca:</strong> Fiat</li>
+                            <li><strong>Modelo:</strong> Uno Attractive 1.0 Firefly</li>
+                            <li><strong>Ano:</strong> 2017</li>
+                            <li><strong>Motor:</strong> 1.0 Firefly, 3 cilindros em linha, 999 cc, flex (álcool/gasolina)</li>
+                            <li><strong>Potência:</strong> 77 cv (álcool) / 72 cv (gasolina) a 6.250 rpm </li>
+                            <li><strong>Torque:</strong>10,9 kgfm (álcool) / 10,4 kgfm (gasolina) a 3.250 rpm</li>
+                            <li><strong>Velocidade máxima:</strong> 157 km/h </li>
+                            <li><strong>Peso:</strong>1.010 kg.</li>
+                            <li><strong>Consumo médio:</strong> 9,2 km/l (álcool) / 13,1 km/l (gasolina)- cidade / 10,4 km/l (álcool) / 15,1 km/l (gasolina) -estrada</li>
+                            <li><strong>Tipo de carroceria:</strong> Hatchback de 4 portas.</li>
+                            <li><strong>Design inspirado:</strong> Projetado por Giorgetto Giugiaro, do estúdio Italdesign, destacando-se pelo formato quadrado e coeficiente aerodinâmico baixo (0,34).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalcorsaclassic" tabindex="-1" aria-labelledby="modalcorsaclassicLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalcorsaclassicLabel">Corsa Classic 2002</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><strong>Marca:</strong> Chevrolet</li>
+                            <li><strong>Modelo:</strong> Corsa Classic</li>
+                            <li><strong>Ano:</strong> 2002</li>
+                            <li><strong>Motor:</strong> 1.0 ou 1.6 (dependendo da versão)</li>
+                            <li><strong>Potência:</strong> Aproximadamente 60 cv (1.0) / 92 cv (1.6)</li>
+                            <li><strong>Torque:</strong> 8,3 kgfm (1.0) / 13,3 kgfm (1.6)</li>
+                            <li><strong>Transmissão:</strong> Manual de 5 marchas</li>
+                            <li><strong>Tração:</strong> Dianteira (FWD)</li>
+                            <li><strong>0 a 100 km/h:</strong> Cerca de 15 segundos (1.0)</li>
+                            <li><strong>Velocidade máxima:</strong> Aproximadamente 150 km/h (1.0)</li>
+                            <li><strong>Peso:</strong> Aproximadamente 900 kg</li>
+                            <li><strong>Consumo médio:</strong> 10 km/l (cidade) / 14 km/l (estrada)</li>
+                            <li><strong>Tipo de carroceria:</strong> Sedã compacto</li>
+                            <li><strong>Combustível:</strong> Gasolina</li>
+                            <li><strong>Destaques:</strong> Econômico, manutenção barata e confiável</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalHayabusa2016" tabindex="-1" aria-labelledby="modalHayabusa2016Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalHayabusa2016Label">Suzuki Hayabusa 2016</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><strong>Marca:</strong> Suzuki</li>
+                            <li><strong>Modelo:</strong> GSX1300R Hayabusa</li>
+                            <li><strong>Ano:</strong> 2016</li>
+                            <li><strong>Motor:</strong> 1.340 cc, 4 cilindros em linha, DOHC, 16 válvulas</li>
+                            <li><strong>Potência:</strong> Aproximadamente 197 cv a 9.500 rpm</li>
+                            <li><strong>Torque:</strong> 15,7 kgfm a 7.200 rpm</li>
+                            <li><strong>Transmissão:</strong> Manual de 6 marchas</li>
+                            <li><strong>Tração:</strong> Traseira (por corrente)</li>
+                            <li><strong>0 a 100 km/h:</strong> Cerca de 2,7 segundos</li>
+                            <li><strong>Velocidade máxima:</strong> Limitada eletronicamente a cerca de 299 km/h</li>
+                            <li><strong>Peso:</strong> Aproximadamente 266 kg (com tanque cheio)</li>
+                            <li><strong>Consumo médio:</strong> 14–18 km/l (dependendo do estilo de pilotagem)</li>
+                            <li><strong>Tipo:</strong> Moto esportiva (Sport Touring)</li>
+                            <li><strong>Destaques:</strong> Uma das motos mais rápidas do mundo, conhecida pela potência e estabilidade</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
   
 </body>
 </html>
