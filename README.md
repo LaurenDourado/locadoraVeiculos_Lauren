@@ -31,7 +31,8 @@ Este é um **projeto pedagógico** desenvolvido com o objetivo de praticar conce
 ![image](https://github.com/user-attachments/assets/f4d3c90d-2094-443f-9379-ac83e424402e)
 
 ## Página Final - Usuário:
-![image](https://github.com/user-attachments/assets/7c6b9313-66c3-42e0-b72f-ced4af0ff691)
+![image](https://github.com/user-attachments/assets/ff53b2fc-5e8c-47ec-8ee3-3d7d2fb0e9ac)
+
 
 
 
