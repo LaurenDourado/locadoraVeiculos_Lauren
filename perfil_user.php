@@ -45,7 +45,7 @@
         </div>
      </div>
      <!-- previsão de aluguel -->
-        <div class="col-md-6">
+        <div class="col">
             <div class="card h-100">
                 <div class="card-header">
                     <h4 class="mb-0">
