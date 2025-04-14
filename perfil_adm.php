@@ -185,7 +185,7 @@
                                     <td>AAA1B23</td>
                                     <td>
                                         <span class="badge bg-warning">
-                                            Indisponível ⚠️
+                                            Alugado ⚠️
                                         </span>
                                     </td>
                                     <td>
@@ -198,8 +198,6 @@
                                                     <!-- veiculo alugado-->
                                                     <button class="btn btn-warning btn-sm" type="submit" name="devolver">Devolver</button>
                                                     <!-- veiculo disponível -->
-                                                    <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
-                                                    <button class="btn btn-primary" name="alugar" type="submit">Alugar</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -211,6 +209,31 @@
                                     <td>Carro</td>
                                     <td>T-CROSS</td>
                                     <td>BBB1C23</td>
+                                    <td>
+                                        <span class="badge bg-warning">
+                                            Alugado ⚠️
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="action-wrapper">
+                                            <form action="post" class="btn-group-actions">
+                                                <!-- botão deletar (sempre disponível para o admin) -->
+                                                <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">Deletar</button>
+                                                <!-- botões condicionais -->
+                                                <div class="rent-group">
+                                                    <!-- veiculo alugado-->
+                                                    <button class="btn btn-warning btn-sm" type="submit" name="devolver">Devolver</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>Moto</td>
+                                    <td>Scooter</td>
+                                    <td>CCC1D23</td>
                                     <td>
                                         <span class="badge bg-success">
                                             Disponível ✅
